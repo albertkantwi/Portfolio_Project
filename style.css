@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;700&family=Roboto:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  display: flex;
+  width: 375px;
+  height: 92px;
+  justify-content: space-between;
+  background-color: #3c3a39;
+  color: #fff;
+  align-items: end;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 70px;
+  height: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: 24px;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+.logo-button {
+  padding-right: 24px;
+  padding-bottom: 18px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #1c1a19;
+  width: 375px;
+  height: 590px;
+  margin-top: 0;
+}
+
+.headline-bigger {
+  width: 327px;
+  height: 124px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding: 120px 24px 0 24px;
+}
+
+.headline-text {
+  display: flex;
+  width: 327px;
+  height: 27px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+  padding: 12px 24px 0 24px;
+}
+
+.headline-small-text {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  padding: 12px 24px 0 24px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  width: 200px;
+  height: 40px;
+  list-style: none;
+  gap: 21px;
+  margin-left: 24px;
+  margin-top: 12px;
+}
+
+.background-img {
+  background: url(background-img.png);
+  width: 130px;
+  height: 312.03px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 65.74%;
+  top: 60.3%;
+  bottom: -5.63%;
+  right: 30.3%;
+} 
+  
