@@ -220,7 +220,7 @@
 .page {
   display: flex;
   flex-direction: column;
-  background-image: url(background-image.png);
+  background-image: url(images/background-image.png);
   background-repeat: no-repeat;
   margin-top: 24px;
   width: 327;
