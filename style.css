@@ -100,7 +100,7 @@
 }
 
 .background-img {
-  background: url(background-img.png);
+  background: url(images/background-img.png);
   width: 130px;
   height: 312.03px;
   background-repeat: no-repeat;
@@ -360,7 +360,7 @@
 }
 
 .background-img2 {
-  background: url("background-img2.png");
+  background: url("images/background-img2.png");
   width: 160px;
   height: 260px;
   background-repeat: no-repeat;
