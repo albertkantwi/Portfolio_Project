@@ -17,10 +17,6 @@
   flex-wrap: wrap;
 }
 
-.header-container {
-  display: none;
-}
-
 .logo {
   width: 70px;
   height: 24px;
@@ -32,6 +28,7 @@
   margin-left: 24px;
   margin-bottom: 12px;
   color: #fff;
+  text-decoration: none;
 }
 
 .logo-button {
