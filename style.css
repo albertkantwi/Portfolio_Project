@@ -452,6 +452,13 @@ textarea {
   padding: 12px;
 }
 
+textarea::placeholder {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #3c3a39;
+}
+
 .form-submit-con {
   display: flex;
   justify-content: center;
@@ -464,10 +471,18 @@ input[type="submit"] {
   border: none;
   color: #fff;
   padding: 12px;
-  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
   font-size: 15px;
+  letter-spacing: 0.03;
   margin-top: 24px;
   cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #fff5e1;
+  border: #f55800;
+  color: #f55800;
 }
 
 footer {
