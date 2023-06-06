@@ -17,6 +17,10 @@
   flex-wrap: wrap;
 }
 
+.header-container {
+  display: none;
+}
+
 .logo {
   width: 70px;
   height: 24px;
@@ -107,7 +111,6 @@
   left: 65.74%;
   top: 60.3%;
   bottom: -5.63%;
-  right: 30.3%;
 }
 
 .middle-page {
@@ -403,4 +406,69 @@
   padding-top: 24px;
   padding-bottom: 24px;
   list-style: none;
+}
+
+.contact {
+  width: 375px;
+  height: 750px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+  margin: 0 auto;
+}
+
+.form-paragraph {
+  width: 327px;
+  height: 216px;
+  color: #172b4d;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+form {
+  padding-top: 50px;
+}
+
+input[type="text"] {
+  width: 327px;
+  padding: 12px;
+  margin: 12px 0;
+  display: inline-block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+textarea {
+  background-color: #fbf8f7;
+  border: none;
+  width: 303px;
+  height: 90px;
+  margin-top: 12px;
+  font-style: italic;
+  padding: 12px;
+}
+
+.form-submit-con {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="submit"] {
+  width: 131px;
+  height: 48px;
+  background-color: #ff6b00;
+  border: none;
+  color: #fff;
+  padding: 12px;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 24px;
+  cursor: pointer;
 }
