@@ -472,3 +472,35 @@ input[type="submit"] {
   margin-top: 24px;
   cursor: pointer;
 }
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.social-icons2 {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  padding-top: 24px;
+  justify-content: space-between;
+  margin: 0 auto;
+  list-style: none;
+}
+
+
+.bottom-line {
+  height: 5px;
+  background-color: #0d151e;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  width: 134px;
+  margin-top: 47px;
+  margin-left: auto;
+  margin-right: auto;
+}
