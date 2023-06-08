@@ -209,6 +209,17 @@
   color: #f55800;
 }
 
+.see-project1:active {
+  color: #fff5e1;
+  background-color: #e05304;
+}
+
+.see-project1:disabled {
+  background-color: #f4f1f0;
+  border: none;
+  color: #5b5957;
+}
+
 .pages-container {
   display: grid;
   grid-template-columns: 100%;
@@ -297,6 +308,17 @@
   color: #f55800;
 }
 
+.page-see-project:active {
+  color: #fff5e1;
+  background-color: #e05304;
+}
+
+.page-see-project:disabled {
+  background-color: #f4f1f0;
+  border: none;
+  color: #5b5957;
+}
+
 .about-me {
   width: 100%;
   height: 1650px;
@@ -357,6 +379,17 @@
   background-color: #fff5e1;
   border: #f55800;
   color: #f55800;
+}
+
+.get-my-resume-button:active {
+  color: #fff5e1;
+  background-color: #e05304;
+}
+
+.get-my-resume-button:disabled {
+  background-color: #f4f1f0;
+  border: none;
+  color: #5b5957;
 }
 
 .background-img2 {
@@ -485,6 +518,17 @@ input[type="submit"]:hover {
   color: #f55800;
 }
 
+input[type="submit"]:active {
+  color: #fff5e1;
+  background-color: #e05304;
+}
+
+input[type="submit"]:disabled {
+  background-color: #f4f1f0;
+  border: none;
+  color: #5b5957;
+}
+
 footer {
   width: 100%;
   height: 50px;
@@ -542,7 +586,7 @@ footer {
 
 /* desktop version */
 
-@media (min-width: 730px) {
+@media (min-width: 768px) {
   #nav-bar {
     display: flex;
     justify-content: flex-end;
@@ -554,7 +598,7 @@ footer {
   .header-container {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 1440px;
     height: 72px;
   }
 
@@ -591,7 +635,7 @@ footer {
   }
 
   .headline {
-    width: 100%;
+    width: 1440px;
     height: 798px;
     background-image: url(images/desk-img1.png);
     background-repeat: no-repeat;
@@ -647,11 +691,12 @@ footer {
 
   .recent {
     display: flex;
+    margin-left: 30.5px;
   }
 
   .recent-work {
     width: 315px;
-    font-family: 400;
+    font-family: 'Crete Round', sans-serif;
     font-size: 40px;
     margin-right: 24px;
   }
@@ -675,9 +720,12 @@ footer {
 
   .under-img {
     display: block;
+    margin-left: 30px;
   }
 
   .under-text {
+    width: 448px;
+    height: 140px;
     margin-left: 24px;
   }
 
@@ -686,15 +734,15 @@ footer {
     grid-template-columns: repeat(3, 369px);
     grid-template-rows: repeat(2, 435px);
     justify-items: center;
-    width: 100%;
+    width: 1440px;
     column-gap: 24px;
     row-gap: 37px;
-    padding-left: 120px;
-    margin-left: 50px;
+    justify-content: center;
   }
 
   .page {
-    display: none;
+    display: grid;
+    margin-left: 60px;
   }
 
   .page-header {
@@ -737,7 +785,7 @@ footer {
 
   .page2-header {
     display: flex;
-    width: 337;
+    width: 337px;
     height: 81px;
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
@@ -765,7 +813,7 @@ footer {
   }
 
   .page3-header {
-    width: 337;
+    width: 337px;
     height: 38px;
     display: flex;
     font-family: 'Crete Round', sans-serif;
@@ -807,6 +855,7 @@ footer {
   }
 
   .about-me {
+    width: 1440px;
     height: 1195px;
     display: flex;
   }
@@ -816,7 +865,7 @@ footer {
   }
 
   .about-me-header {
-    margin-left: 75px;
+    margin-left: 142px;
   }
 
   .desk-about-me-paragraph {
@@ -830,11 +879,11 @@ footer {
     line-height: 32px;
     color: #f4f5f7;
     margin-top: 24px;
-    margin-left: 75px;
+    margin-left: 142px;
   }
 
   .get-my-resume-button {
-    margin-left: 75px;
+    margin-left: 142px;
   }
 
   .background-image2 {
@@ -842,13 +891,13 @@ footer {
   }
 
   .desk-background-img2 {
-    width: 602px;
+    width: 582px;
     height: 352px;
     display: flex;
     background-image: url(images/desk-imag2.png);
     position: absolute;
-    left: 56.55%;
-    right: -99.81%;
+    left: 59.55%;
+    right: -89.81%;
     top: 5%;
   }
 
@@ -859,34 +908,33 @@ footer {
     border: 1px solid #fff;
     line-height: normal;
     align-items: center;
-    margin-left: 75px;
+    margin-left: 142px;
     top: calc(40% - 0px / 2 + 0.5px);
   }
 
   .desk-about-skills {
     display: flex;
-    margin-left: 180px;
-    column-gap: 25px;
+    margin-left: 193px;
   }
 
-  .about-skill-lang {
-    margin-left: 104px;
-    column-gap: 50px;
-  }
-
-  .skill-lang {
-    margin-left: -140px;
-    margin-top: 30px;
-    padding-top: 32px;
+  .langua {
+    display: flex;
+    flex-direction: column;
     text-align: start;
   }
 
-  .desk-lang1 {
-    margin-left: -200px;
+  .frame {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-left: 200px;
   }
 
-  .desk-lang2 {
-    margin-left: -250px;
+  .skil {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-left: 200px;
   }
 
   .sele {
@@ -906,7 +954,7 @@ footer {
     font-size: 32px;
     text-align: start;
     align-items: center;
-    margin-left: 90px;
+    margin-left: 135px;
     margin-top: 100px;
     padding: 0;
   }
@@ -918,7 +966,6 @@ footer {
   input[type="text"] {
     width: 684px;
     margin-left: 30px;
-    position: right;
   }
 
   textarea {
@@ -933,5 +980,9 @@ footer {
 
   input[type="submit"] {
     margin-right: 500px;
+  }
+
+  footer {
+    width: 1440px;
   }
 }
