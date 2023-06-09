@@ -598,7 +598,8 @@ footer {
   .header-container {
     display: flex;
     justify-content: space-between;
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     height: 72px;
   }
 
@@ -635,7 +636,8 @@ footer {
   }
 
   .headline {
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     height: 798px;
     background-image: url(images/desk-img1.png);
     background-repeat: no-repeat;
@@ -691,7 +693,6 @@ footer {
 
   .recent {
     display: flex;
-    margin-left: 30.5px;
   }
 
   .recent-work {
@@ -720,7 +721,6 @@ footer {
 
   .under-img {
     display: block;
-    margin-left: 30px;
   }
 
   .under-text {
@@ -734,7 +734,8 @@ footer {
     grid-template-columns: repeat(3, 369px);
     grid-template-rows: repeat(2, 435px);
     justify-items: center;
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     column-gap: 24px;
     row-gap: 37px;
     justify-content: center;
@@ -742,7 +743,6 @@ footer {
 
   .page {
     display: grid;
-    margin-left: 60px;
   }
 
   .page-header {
@@ -855,7 +855,8 @@ footer {
   }
 
   .about-me {
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     height: 1195px;
     display: flex;
   }
@@ -893,22 +894,21 @@ footer {
   .desk-background-img2 {
     width: 582px;
     height: 352px;
-    display: flex;
+    background-position: right;
     background-image: url(images/desk-imag2.png);
     position: absolute;
-    left: 59.55%;
-    right: -89.81%;
     top: 5%;
   }
 
   .about-line {
     display: flex;
-    width: 1156px;
+    width: 80%;
     position: absolute;
     border: 1px solid #fff;
     line-height: normal;
     align-items: center;
     margin-left: 142px;
+    margin-right: 142px;
     top: calc(40% - 0px / 2 + 0.5px);
   }
 
@@ -945,11 +945,16 @@ footer {
     display: flex;
     flex-direction: row;
     width: 100%;
+    max-width: 1440px;
     height: 614px;
+    margin: 0;
+    padding: 0;
   }
 
   .form-paragraph {
-    width: 855px;
+    display: flex;
+    width: 355px;
+    height: 256px;
     font-family: 'inter', sans-serif;
     font-size: 32px;
     text-align: start;
@@ -964,6 +969,7 @@ footer {
   }
 
   input[type="text"] {
+    display: flex;
     width: 684px;
     margin-left: 30px;
   }
@@ -983,6 +989,7 @@ footer {
   }
 
   footer {
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
   }
 }
