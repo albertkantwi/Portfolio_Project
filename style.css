@@ -201,6 +201,7 @@
   font-size: 17px;
   cursor: pointer;
   margin-top: 12px;
+  transition: background-color 0.5s ease-out;
 }
 
 .see-project1:hover {
