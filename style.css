@@ -201,6 +201,7 @@
   font-size: 17px;
   cursor: pointer;
   margin-top: 12px;
+  transition: background-color 0.5s ease-out;
 }
 
 .see-project1:hover {
@@ -300,6 +301,7 @@
   font-size: 17px;
   cursor: pointer;
   margin-top: 22px;
+  transition: background-color 0.5s ease-out;
 }
 
 .page-see-project:hover {
@@ -373,6 +375,7 @@
   cursor: pointer;
   margin-top: 24px;
   margin-left: 24px;
+  transition: background-color 0.5s ease-out;
 }
 
 .get-my-resume-button:hover {
