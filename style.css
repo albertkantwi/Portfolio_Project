@@ -209,6 +209,17 @@
   color: #f55800;
 }
 
+.see-project1:active {
+  color: #fff5e1;
+  background-color: #e05304;
+}
+
+.see-project1:disabled {
+  background-color: #f4f1f0;
+  border: none;
+  color: #5b5957;
+}
+
 .pages-container {
   display: grid;
   grid-template-columns: 100%;
@@ -297,6 +308,17 @@
   color: #f55800;
 }
 
+.page-see-project:active {
+  color: #fff5e1;
+  background-color: #e05304;
+}
+
+.page-see-project:disabled {
+  background-color: #f4f1f0;
+  border: none;
+  color: #5b5957;
+}
+
 .about-me {
   width: 100%;
   height: 1650px;
@@ -357,6 +379,17 @@
   background-color: #fff5e1;
   border: #f55800;
   color: #f55800;
+}
+
+.get-my-resume-button:active {
+  color: #fff5e1;
+  background-color: #e05304;
+}
+
+.get-my-resume-button:disabled {
+  background-color: #f4f1f0;
+  border: none;
+  color: #5b5957;
 }
 
 .background-img2 {
@@ -485,6 +518,17 @@ input[type="submit"]:hover {
   color: #f55800;
 }
 
+input[type="submit"]:active {
+  color: #fff5e1;
+  background-color: #e05304;
+}
+
+input[type="submit"]:disabled {
+  background-color: #f4f1f0;
+  border: none;
+  color: #5b5957;
+}
+
 footer {
   width: 100%;
   height: 50px;
@@ -514,4 +558,438 @@ footer {
   margin-top: 47px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#nav-bar {
+  display: none;
+}
+
+.under-img {
+  display: none;
+}
+
+.page2-header {
+  display: none;
+}
+
+.page3-header {
+  display: none;
+}
+
+.desk-about-me-paragraph {
+  display: none;
+}
+
+.sele {
+  display: none;
+}
+
+/* desktop version */
+
+@media (min-width: 768px) {
+  #nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 151px;
+    align-items: center;
+    flex: 1;
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1440px;
+    height: 72px;
+  }
+
+  .nav-link {
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 32px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 26px;
+  }
+
+  #features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .logo-button {
+    display: none;
+  }
+
+  .logo {
+    display: flex;
+    width: 84px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 154px;
+    margin-bottom: 26px;
+  }
+
+  .headline {
+    width: 100%;
+    max-width: 1440px;
+    height: 798px;
+    background-image: url(images/desk-img1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+  }
+
+  .headline-bigger {
+    width: 566px;
+    margin-left: 143px;
+    margin-top: 60px;
+    order: 1;
+  }
+
+  .headline-text {
+    width: 566px;
+    font-weight: 500;
+    font-size: 32px;
+    margin-left: 143px;
+    margin-top: 24px;
+    order: 3;
+  }
+
+  .headline-small-text {
+    width: 566px;
+    height: 123px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 143px;
+    margin-top: 24px;
+    order: 4;
+  }
+
+  .social-icons {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0.5%;
+    right: 96.11%;
+    top: 25.37%;
+    bottom: 89.19%;
+    order: 2;
+    margin-top: 140px;
+    margin-left: 36px;
+    margin-right: 90px;
+  }
+
+  .background-img {
+    display: none;
+  }
+
+  .recent {
+    display: flex;
+  }
+
+  .recent-work {
+    width: 315px;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 40px;
+    margin-right: 24px;
+  }
+
+  .line {
+    width: 794px;
+    height: 0;
+    border: 1px solid #212121;
+    margin-top: 130px;
+  }
+
+  .under-page {
+    width: 1156px;
+    height: 446px;
+    display: flex;
+  }
+
+  .first-img {
+    display: none;
+  }
+
+  .under-img {
+    display: block;
+  }
+
+  .under-text {
+    width: 448px;
+    height: 140px;
+    margin-left: 24px;
+  }
+
+  .pages-container {
+    display: grid;
+    grid-template-columns: repeat(3, 369px);
+    grid-template-rows: repeat(2, 435px);
+    justify-items: center;
+    width: 100%;
+    max-width: 1440px;
+    column-gap: 24px;
+    row-gap: 37px;
+    justify-content: center;
+  }
+
+  .page {
+    display: grid;
+  }
+
+  .page-header {
+    display: none;
+  }
+
+  .page-paragraph {
+    display: none;
+  }
+
+  .page-language {
+    display: none;
+  }
+
+  .page-see-project {
+    display: none;
+  }
+
+  .page1 {
+    width: 369px;
+    height: 435px;
+    display: block;
+    background-image: url(images/desk-pages1.png);
+  }
+
+  .page1-button {
+    width: 369px;
+    height: 58px;
+    display: inline-block;
+    margin-top: 377px;
+    text-align: center;
+  }
+
+  .page2 {
+    width: 369px;
+    height: 435px;
+    display: block;
+    background-image: url(images/desk-pages2.png);
+  }
+
+  .page2-header {
+    display: flex;
+    width: 337px;
+    height: 81px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    padding-left: 13px;
+    margin-top: 178px;
+  }
+
+  .page2-paragraph {
+    display: flex;
+  }
+
+  .page2-lang {
+    display: flex;
+  }
+
+  .page3 {
+    width: 369px;
+    height: 435px;
+    display: flex;
+    background-image: url(images/desk-pages3.png);
+  }
+
+  .page3-header {
+    width: 337px;
+    height: 38px;
+    display: flex;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    margin-top: 221px;
+    padding-left: 13px;
+  }
+
+  .page3-paragraph {
+    display: flex;
+  }
+
+  .page3-lang {
+    display: flex;
+  }
+
+  .page4 {
+    width: 369px;
+    height: 435px;
+    background-image: url(images/desk-pages4.png);
+    display: flex;
+  }
+
+  .page4-header {
+    display: flex;
+    margin-top: 150px;
+  }
+
+  .page4-paragraph {
+    display: flex;
+  }
+
+  .page4-lang {
+    display: flex;
+  }
+
+  .about-me {
+    width: 100%;
+    max-width: 1440px;
+    height: 1195px;
+    display: flex;
+  }
+
+  .about-me-paragraph {
+    display: none;
+  }
+
+  .about-me-header {
+    margin-left: 142px;
+  }
+
+  .desk-about-me-paragraph {
+    display: flex;
+    width: 566px;
+    height: 148px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #f4f5f7;
+    margin-top: 24px;
+    margin-left: 142px;
+  }
+
+  .get-my-resume-button {
+    margin-left: 142px;
+  }
+
+  .background-image2 {
+    display: none;
+  }
+
+  .desk-background-img2 {
+    width: 582px;
+    height: 352px;
+    background-position: right;
+    background-image: url(images/desk-imag2.png);
+    position: absolute;
+    top: 5%;
+  }
+
+  .about-line {
+    display: flex;
+    width: 80%;
+    position: absolute;
+    border: 1px solid #fff;
+    line-height: normal;
+    align-items: center;
+    margin-left: 142px;
+    margin-right: 142px;
+    top: calc(40% - 0px / 2 + 0.5px);
+  }
+
+  .desk-about-skills {
+    display: flex;
+    margin-left: 193px;
+  }
+
+  .langua {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+
+  .frame {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-left: 200px;
+  }
+
+  .skil {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-left: 200px;
+  }
+
+  .sele {
+    display: flex;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1440px;
+    height: 614px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .form-paragraph {
+    display: flex;
+    width: 355px;
+    height: 256px;
+    font-family: 'inter', sans-serif;
+    font-size: 32px;
+    text-align: start;
+    align-items: center;
+    margin-left: 135px;
+    margin-top: 100px;
+    padding: 0;
+  }
+
+  form {
+    margin-top: 40px;
+  }
+
+  input[type="text"] {
+    display: flex;
+    width: 684px;
+    margin-left: 30px;
+  }
+
+  textarea {
+    width: 660px;
+    height: 90px;
+    margin-left: 30px;
+  }
+
+  .bottom-line {
+    display: none;
+  }
+
+  input[type="submit"] {
+    margin-right: 500px;
+  }
+
+  footer {
+    width: 100%;
+    max-width: 1440px;
+  }
 }
