@@ -375,6 +375,7 @@
   cursor: pointer;
   margin-top: 24px;
   margin-left: 24px;
+  transition: background-color 0.5s ease-out;
 }
 
 .get-my-resume-button:hover {
