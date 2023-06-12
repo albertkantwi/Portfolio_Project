@@ -62,8 +62,10 @@ Added style.css file
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+To check the live demo of this page, visit:
 
-Live-demo will be added soon.
+https://albertkantwi.github.io/Portfolio_Project/
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,8 +108,8 @@ To run tests, run the following command:
 Coming soon.
 
 ### Deployment
-
-Coming soon
+This page has been deploy on github pages. Check this on:
+https://albertkantwi.github.io/Portfolio_Project/
  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
