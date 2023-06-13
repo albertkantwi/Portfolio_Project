@@ -211,7 +211,7 @@
 }
 
 .see-project1:active {
-  color: #fff5e1;
+  color: black;
   background-color: #e05304;
 }
 
@@ -311,7 +311,7 @@
 }
 
 .page-see-project:active {
-  color: #fff5e1;
+  color: black;
   background-color: #e05304;
 }
 
@@ -385,7 +385,7 @@
 }
 
 .get-my-resume-button:active {
-  color: #fff5e1;
+  color: black;
   background-color: #e05304;
 }
 
@@ -522,7 +522,7 @@ input[type="submit"]:hover {
 }
 
 input[type="submit"]:active {
-  color: #fff5e1;
+  color: black;
   background-color: #e05304;
 }
 
