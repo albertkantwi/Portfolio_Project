@@ -115,7 +115,7 @@
   grid-template-columns: 100%;
   grid-template-rows: 250px repeat(3, auto);
   justify-items: center;
-  width: 100%;
+  width: 1440px;
   min-height: 90px;
 }
 
