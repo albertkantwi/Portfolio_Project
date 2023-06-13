@@ -291,7 +291,7 @@
 .page-see-project {
   background-color: #ff6b00;
   border: none;
-  color: #fff;
+  color: black;
   padding: 12px;
   text-align: center;
   display: inline-block;
@@ -365,7 +365,7 @@
   font-family: 'Inter', sans-serif;
   background-color: #ff6b00;
   border: none;
-  color: #fff;
+  color: black;
   padding: 12px;
   text-align: center;
   display: inline-block;
