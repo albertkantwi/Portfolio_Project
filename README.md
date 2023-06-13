@@ -129,6 +129,9 @@ Albert Antwi
 - Twitter: [@twitterhandle](https://twitter.com/dvcorreia1984)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/dvcorreia)
 
+ **Author3**
+
+- GitHub: [@githubhandle](https://github.com/riskmaris)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
