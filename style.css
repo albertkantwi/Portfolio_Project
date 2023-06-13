@@ -601,9 +601,11 @@ footer {
   .header-container {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 1440px;
     max-width: 1440px;
     height: 72px;
+    margin: 0;
+    padding: 0;
   }
 
   .nav-link {
@@ -639,13 +641,15 @@ footer {
   }
 
   .headline {
-    width: 100%;
+    width: 1440px;
     max-width: 1440px;
     height: 798px;
     background-image: url(images/desk-img1.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
+    margin: 0;
+    padding: 0;
   }
 
   .headline-bigger {
@@ -713,7 +717,7 @@ footer {
   }
 
   .under-page {
-    width: 1156px;
+    wdth: 1156px;
     height: 446px;
     display: flex;
   }
@@ -737,11 +741,13 @@ footer {
     grid-template-columns: repeat(3, 369px);
     grid-template-rows: repeat(2, 435px);
     justify-items: center;
-    width: 100%;
+    width: 1440px;
     max-width: 1440px;
     column-gap: 24px;
     row-gap: 37px;
     justify-content: center;
+    margin: 0;
+    padding: 0;
   }
 
   .page {
@@ -858,10 +864,11 @@ footer {
   }
 
   .about-me {
-    width: 100%;
+    width: 1440px;
     max-width: 1440px;
     height: 1195px;
     display: flex;
+    padding: 0;
   }
 
   .about-me-paragraph {
@@ -947,7 +954,7 @@ footer {
   .contact {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 1440px;
     max-width: 1440px;
     height: 614px;
     margin: 0;
@@ -978,7 +985,7 @@ footer {
   }
 
   textarea {
-    width: 660px;
+    width: 658px;
     height: 90px;
     margin-left: 30px;
   }
@@ -992,7 +999,7 @@ footer {
   }
 
   footer {
-    width: 100%;
+    width: 1440px;
     max-width: 1440px;
   }
 }
