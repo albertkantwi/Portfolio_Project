@@ -205,9 +205,9 @@
 }
 
 .see-project1:hover {
-  background-color: #fff5e1;
-  border: #f55800;
-  color: black;
+  background-color: black;
+  color: #f55800;
+  border-color: black;
 }
 
 .see-project1:active {
@@ -305,8 +305,8 @@
 }
 
 .page-see-project:hover {
-  background-color: #fff5e1;
-  border: #f55800;
+  background-color: black;
+  border: black;
   color: #f55800;
 }
 
@@ -365,7 +365,7 @@
   font-family: 'Inter', sans-serif;
   background-color: #ff6b00;
   border: none;
-  color: black;
+  color: black;add
   padding: 12px;
   text-align: center;
   display: inline-block;
@@ -381,7 +381,7 @@
 .get-my-resume-button:hover {
   background-color: #fff5e1;
   border: #f55800;
-  color: #f55800;
+  color: black;
 }
 
 .get-my-resume-button:active {
