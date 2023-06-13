@@ -115,7 +115,7 @@
   grid-template-columns: 100%;
   grid-template-rows: 250px repeat(3, auto);
   justify-items: center;
-  width: 1440px;
+  width: 100%;
   min-height: 90px;
 }
 
@@ -717,7 +717,7 @@ footer {
   }
 
   .under-page {
-    wdth: 1156px;
+    width: 1156px;
     height: 446px;
     display: flex;
   }
