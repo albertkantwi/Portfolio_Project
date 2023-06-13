@@ -193,7 +193,7 @@
   width: 40%;
   background-color: #ff6b00;
   border: none;
-  color: #fff;
+  color: black;
   padding: 12px;
   text-align: center;
   font-family: 'Inter', sans-serif;
@@ -205,9 +205,9 @@
 }
 
 .see-project1:hover {
-  background-color: #fff5e1;
-  border: #f55800;
+  background-color: black;
   color: #f55800;
+  border-color: black;
 }
 
 .see-project1:active {
@@ -291,7 +291,7 @@
 .page-see-project {
   background-color: #ff6b00;
   border: none;
-  color: #fff;
+  color: black;
   padding: 12px;
   text-align: center;
   display: inline-block;
@@ -305,8 +305,8 @@
 }
 
 .page-see-project:hover {
-  background-color: #fff5e1;
-  border: #f55800;
+  background-color: black;
+  border: black;
   color: #f55800;
 }
 
@@ -365,7 +365,7 @@
   font-family: 'Inter', sans-serif;
   background-color: #ff6b00;
   border: none;
-  color: #fff;
+  color: black;
   padding: 12px;
   text-align: center;
   display: inline-block;
@@ -381,7 +381,7 @@
 .get-my-resume-button:hover {
   background-color: #fff5e1;
   border: #f55800;
-  color: #f55800;
+  color: black;
 }
 
 .get-my-resume-button:active {
@@ -505,7 +505,7 @@ input[type="submit"] {
   height: 48px;
   background-color: #ff6b00;
   border: none;
-  color: #fff;
+  color: black;
   padding: 12px;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
@@ -516,8 +516,8 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #fff5e1;
-  border: #f55800;
+  background-color: black;
+  border: black;
   color: #f55800;
 }
 
