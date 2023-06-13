@@ -365,7 +365,7 @@
   font-family: 'Inter', sans-serif;
   background-color: #ff6b00;
   border: none;
-  color: black;add
+  color: black;
   padding: 12px;
   text-align: center;
   display: inline-block;
@@ -505,7 +505,7 @@ input[type="submit"] {
   height: 48px;
   background-color: #ff6b00;
   border: none;
-  color: #fff;
+  color: black;
   padding: 12px;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
@@ -516,8 +516,8 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #fff5e1;
-  border: #f55800;
+  background-color: black;
+  border: black;
   color: #f55800;
 }
 
