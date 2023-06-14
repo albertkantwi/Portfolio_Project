@@ -192,8 +192,8 @@
   display: inline-block;
   width: 40%;
   background-color: #ff6b00;
-  border: none;
-  color: #fff;
+  border: 2px solid black;
+  color: black;
   padding: 12px;
   text-align: center;
   font-family: 'Inter', sans-serif;
@@ -205,13 +205,13 @@
 }
 
 .see-project1:hover {
-  background-color: #fff5e1;
-  border: #f55800;
+  background-color: black;
   color: #f55800;
+  border-color: black;
 }
 
 .see-project1:active {
-  color: #fff5e1;
+  color: black;
   background-color: #e05304;
 }
 
@@ -290,8 +290,8 @@
 
 .page-see-project {
   background-color: #ff6b00;
-  border: none;
-  color: #fff;
+  border: 2px solid black;
+  color: black;
   padding: 12px;
   text-align: center;
   display: inline-block;
@@ -305,13 +305,13 @@
 }
 
 .page-see-project:hover {
-  background-color: #fff5e1;
-  border: #f55800;
+  background-color: black;
+  border: black;
   color: #f55800;
 }
 
 .page-see-project:active {
-  color: #fff5e1;
+  color: black;
   background-color: #e05304;
 }
 
@@ -360,12 +360,12 @@
 }
 
 .get-my-resume-button {
-  width: 159px;
+  width: 169px;
   height: 48px;
   font-family: 'Inter', sans-serif;
   background-color: #ff6b00;
-  border: none;
-  color: #fff;
+  border: 2px solid black;
+  color: black;
   padding: 12px;
   text-align: center;
   display: inline-block;
@@ -381,11 +381,11 @@
 .get-my-resume-button:hover {
   background-color: #fff5e1;
   border: #f55800;
-  color: #f55800;
+  color: black;
 }
 
 .get-my-resume-button:active {
-  color: #fff5e1;
+  color: black;
   background-color: #e05304;
 }
 
@@ -504,8 +504,8 @@ input[type="submit"] {
   width: 131px;
   height: 48px;
   background-color: #ff6b00;
-  border: none;
-  color: #fff;
+  border: 2px solid black;
+  color: black;
   padding: 12px;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
@@ -516,13 +516,13 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #fff5e1;
-  border: #f55800;
+  background-color: black;
+  border: black;
   color: #f55800;
 }
 
 input[type="submit"]:active {
-  color: #fff5e1;
+  color: black;
   background-color: #e05304;
 }
 
@@ -601,9 +601,11 @@ footer {
   .header-container {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 1440px;
     max-width: 1440px;
     height: 72px;
+    margin: 0;
+    padding: 0;
   }
 
   .nav-link {
@@ -639,13 +641,15 @@ footer {
   }
 
   .headline {
-    width: 100%;
+    width: 1440px;
     max-width: 1440px;
     height: 798px;
     background-image: url(images/desk-img1.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
+    margin: 0;
+    padding: 0;
   }
 
   .headline-bigger {
@@ -737,11 +741,13 @@ footer {
     grid-template-columns: repeat(3, 369px);
     grid-template-rows: repeat(2, 435px);
     justify-items: center;
-    width: 100%;
+    width: 1440px;
     max-width: 1440px;
     column-gap: 24px;
     row-gap: 37px;
     justify-content: center;
+    margin: 0;
+    padding: 0;
   }
 
   .page {
@@ -858,10 +864,11 @@ footer {
   }
 
   .about-me {
-    width: 100%;
+    width: 1440px;
     max-width: 1440px;
     height: 1195px;
     display: flex;
+    padding: 0;
   }
 
   .about-me-paragraph {
@@ -947,7 +954,7 @@ footer {
   .contact {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 1440px;
     max-width: 1440px;
     height: 614px;
     margin: 0;
@@ -978,7 +985,7 @@ footer {
   }
 
   textarea {
-    width: 660px;
+    width: 658px;
     height: 90px;
     margin-left: 30px;
   }
@@ -992,7 +999,7 @@ footer {
   }
 
   footer {
-    width: 100%;
+    width: 1440px;
     max-width: 1440px;
   }
 }

@@ -123,8 +123,15 @@ Albert Antwi
 - GitHub: [@albertkantwi](https://github.com/albertkantwi)
 - Twitter: [@Albert_KAntwi](https://twitter.com/Albert_KAntwi?t=-jvnlwsHZy2j_hknq6DqBQ&s=08)
 
+👤 **Author2**
 
+- GitHub: [@githubhandle](https://github.com/dvcorreia1984)
+- Twitter: [@twitterhandle](https://twitter.com/dvcorreia1984)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/dvcorreia)
 
+ **Author3**
+
+- GitHub: [@githubhandle](https://github.com/riskmaris)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
