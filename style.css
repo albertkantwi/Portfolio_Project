@@ -192,8 +192,8 @@
   display: inline-block;
   width: 40%;
   background-color: #ff6b00;
-  border: none;
-  color: blue;
+  border: 2px solid black;
+  color: black;
   padding: 12px;
   text-align: center;
   font-family: 'Inter', sans-serif;
@@ -290,7 +290,7 @@
 
 .page-see-project {
   background-color: #ff6b00;
-  border: none;
+  border: 2px solid black;
   color: black;
   padding: 12px;
   text-align: center;
@@ -364,7 +364,7 @@
   height: 48px;
   font-family: 'Inter', sans-serif;
   background-color: #ff6b00;
-  border: none;
+  border: 2px solid black;
   color: black;
   padding: 12px;
   text-align: center;
@@ -504,7 +504,7 @@ input[type="submit"] {
   width: 131px;
   height: 48px;
   background-color: #ff6b00;
-  border: none;
+  border: 2px solid black;
   color: black;
   padding: 12px;
   font-family: 'Inter', sans-serif;
