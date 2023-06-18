@@ -105,7 +105,7 @@
   height: 312.03px;
   background-repeat: no-repeat;
   position: absolute;
-  left: 65.74%;
+  left: 68.74%;
   top: 60.3%;
   bottom: -5.63%;
 }
@@ -192,8 +192,8 @@
   display: inline-block;
   width: 40%;
   background-color: #ff6b00;
-  border: 2px solid black;
-  color: black;
+  border: none;
+  color: #fff5e1;
   padding: 12px;
   text-align: center;
   font-family: 'Inter', sans-serif;
@@ -205,13 +205,13 @@
 }
 
 .see-project1:hover {
-  background-color: black;
+  background-color: #fff5e1;
   color: #f55800;
-  border-color: black;
+  border: 2px solid #f55800;
 }
 
 .see-project1:active {
-  color: black;
+  color: #fff5e1;
   background-color: #e05304;
 }
 
@@ -290,8 +290,8 @@
 
 .page-see-project {
   background-color: #ff6b00;
-  border: 2px solid black;
-  color: black;
+  border: none;
+  color: #fff5e1;
   padding: 12px;
   text-align: center;
   display: inline-block;
@@ -305,13 +305,13 @@
 }
 
 .page-see-project:hover {
-  background-color: black;
-  border: black;
+  background-color: #fff5e1;
+  border: 2px solid #f55800;
   color: #f55800;
 }
 
 .page-see-project:active {
-  color: black;
+  color: #fff5e1;
   background-color: #e05304;
 }
 
@@ -364,8 +364,8 @@
   height: 48px;
   font-family: 'Inter', sans-serif;
   background-color: #ff6b00;
-  border: 2px solid black;
-  color: black;
+  border: none;
+  color: #fff5e1;
   padding: 12px;
   text-align: center;
   display: inline-block;
@@ -380,12 +380,12 @@
 
 .get-my-resume-button:hover {
   background-color: #fff5e1;
-  border: #f55800;
-  color: black;
+  border: 2px solid #f55800;
+  color: #f55800;
 }
 
 .get-my-resume-button:active {
-  color: black;
+  color: #fff5e1;
   background-color: #e05304;
 }
 
@@ -504,8 +504,8 @@ input[type="submit"] {
   width: 131px;
   height: 48px;
   background-color: #ff6b00;
-  border: 2px solid black;
-  color: black;
+  color: #fff5e1;
+  border: none;
   padding: 12px;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
@@ -516,13 +516,13 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: black;
-  border: black;
+  background-color: #fff5e1;
+  border: 2px solid #f55800;
   color: #f55800;
 }
 
 input[type="submit"]:active {
-  color: black;
+  color: #fff5e1;
   background-color: #e05304;
 }
 
@@ -601,7 +601,7 @@ footer {
   .header-container {
     display: flex;
     justify-content: space-between;
-    width: 1440px;
+    width: 100%;
     max-width: 1440px;
     height: 72px;
     margin: 0;
@@ -641,13 +641,13 @@ footer {
   }
 
   .headline {
-    width: 1440px;
+    width: 100%;
     max-width: 1440px;
     height: 798px;
     background-image: url(images/desk-img1.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: contain;
+    background-size: 40%;
     margin: 0;
     padding: 0;
   }
@@ -702,6 +702,11 @@ footer {
     display: flex;
   }
 
+  .middle-page {
+    width: 100%;
+    max-width: 1440px;
+  }
+
   .recent-work {
     width: 315px;
     font-family: 'Crete Round', sans-serif;
@@ -741,8 +746,6 @@ footer {
     grid-template-columns: repeat(3, 369px);
     grid-template-rows: repeat(2, 435px);
     justify-items: center;
-    width: 1440px;
-    max-width: 1440px;
     column-gap: 24px;
     row-gap: 37px;
     justify-content: center;
@@ -864,7 +867,7 @@ footer {
   }
 
   .about-me {
-    width: 1440px;
+    width: 100%;
     max-width: 1440px;
     height: 1195px;
     display: flex;
@@ -954,7 +957,7 @@ footer {
   .contact {
     display: flex;
     flex-direction: row;
-    width: 1440px;
+    width: 100%;
     max-width: 1440px;
     height: 614px;
     margin: 0;
@@ -999,7 +1002,7 @@ footer {
   }
 
   footer {
-    width: 1440px;
+    width: 100%;
     max-width: 1440px;
   }
 }
