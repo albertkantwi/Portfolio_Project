@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Albert's Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
 </head>
 <body>
   <header class="header-container">
@@ -13,16 +17,42 @@
         My Logo
     </a>
     <nav class="logo-button">
-        <a href="#"><img src="images/logo-button.png" alt="menu" width="18px" height="12px"></a>
+        <a href="#" class="humburger"><img src="images/logo-button.png" alt="menu" width="18px" height="12px"></a>
+        
+        <ul class="nav-bar">
+        <li>
+        <a href="#head" class="nav-link">Portfolio</a>
+        </li>
+        <li>
+        <a href="#about" class="nav-link">About</a>
+        </li>
+        <li>
+        <a href="#contact" class="nav-link">Contact</a>
+        </li>
+        <li>
+        </li>
+        <div class="close-menu"><img src="images/close.svg" alt="close" width="32px" height="32px"></div>
+    </ul>
     </nav>
-    <nav id="nav-bar">
-        <a href="#" class="nav-link">Portfolio</a>
-        <a href="#" class="nav-link">About</a>
-        <a href="#" class="nav-link">Contact</a>
-        <a href="#"><img src="images/messages.png" alt="Messsage" width="22px" height="18px" class="nav-link"></a>
-      </nav>
+
+    <nav class="logo-button-desk">
+        <ul class="nav-bar-desk">
+        <li>
+        <a href="#head" class="nav-link-desk">Portfolio</a>
+        </li>
+        <li>
+        <a href="#about" class="nav-link-desk">About</a>
+        </li>
+        <li>
+        <a href="#contact" class="nav-link-desk">Contact</a>
+        </li>
+        <li>
+        <a href="#" class="nav-link-desk"><img src="images/messages.png" alt="Messsage" width="22px" height="18px"></a>
+        </li>
+    </ul>
+    </nav>
   </header>
-  <section class="headline">
+  <section class="headline" id="head">
     <h1 class="headline-bigger">
         Hey There. <br/> I'm Albert.
     </h1>
@@ -215,7 +245,7 @@ don't hesitate to contact me.
     </div>
   </section> 
   <!--my profile-->
-  <section>
+  <section id="about">
     <div class="about-me">
         <h2 class="about-me-header">About me</h2>
         <p class="about-me-paragraph">
@@ -271,7 +301,7 @@ don't hesitate to contact me.
     </div>
   </section>
   <!-- contact form -->
-  <section>
+  <section id="contact">
     <div class="contact">
         <p class="form-paragraph">
             I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
@@ -309,5 +339,6 @@ don't hesitate to contact me.
       <hr class="bottom-line">
     </div>
  </footer>
+ <script src="script.js"></script>
 </body>
 </html>
