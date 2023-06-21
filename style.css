@@ -569,26 +569,63 @@ footer {
   margin-right: auto;
 }
 
-@media (max-width: 768px){
-.under-img {
-  display: none;
-}
+@media (max-width: 768px) {
+  .under-img {
+    display: none;
+  }
 
-.page2-header {
-  display: none;
-}
+  .page2-header {
+    display: none;
+  }
 
-.page3-header {
-  display: none;
-}
+  .page3-header {
+    display: none;
+  }
 
-.desk-about-me-paragraph {
-  display: none;
-}
+  .desk-about-me-paragraph {
+    display: none;
+  }
 
-.logo-button-desk {
-  display: none;
-}
+  .logo-button-desk {
+    display: none;
+  }
+
+  .nav-bar {
+    height: 100%;
+    position: absolute;
+    top: -100%;
+    right: 0;
+    left: 0;
+    z-index: 80;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    background: #3c3a39;
+    transition: top 0.6s ease 0s;
+    padding-top: 55px;
+  }
+
+  .nav-link {
+    width: 85%;
+    color: #fff5e1;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 24px;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 1px solid #6f6c6b;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 5px;
+  }
+
+  .close-menu {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+  }
 
 
 }
