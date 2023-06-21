@@ -241,7 +241,7 @@ body {
   background-image: url(images/background-image.png);
   background-repeat: no-repeat;
   margin-top: 24px;
-  width: 327;
+  width: 327px;
   height: 372px;
   margin-left: 5px;
 }
@@ -516,7 +516,7 @@ input[type="submit"] {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 15px;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03rem;
   margin-top: 24px;
   cursor: pointer;
 }
@@ -600,7 +600,6 @@ footer {
     z-index: 80;
     flex-direction: column;
     justify-content: left;
-    align-items: left;
     background: #3c3a39;
     transition: top 0.6s ease 0s;
     padding-top: 55px;
