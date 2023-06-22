@@ -6,10 +6,6 @@
   padding: 0;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 .header-container {
   display: flex;
   width: 100%;
@@ -19,8 +15,6 @@ body {
   color: #fff;
   align-items: end;
   flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
 }
 
 .logo {
@@ -83,6 +77,7 @@ body {
 }
 
 .headline-small-text {
+  width: 327px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -145,7 +140,6 @@ body {
   top: 107px;
   border: 1px solid #212121;
   align-items: center;
-  margin-left: 0;
   margin-top: 40px;
 }
 
@@ -196,7 +190,7 @@ body {
 
 .see-project1 {
   display: inline-block;
-  width: 40%;
+  width: 327px;
   background-color: #ff6b00;
   border: none;
   color: #fff5e1;
@@ -207,7 +201,7 @@ body {
   font-size: 17px;
   cursor: pointer;
   margin-top: 12px;
-  transition: background-color 0.5s ease-out;
+  transition: background-color 0.7s ease-out;
 }
 
 .see-project1:hover {
@@ -229,21 +223,20 @@ body {
 
 .pages-container {
   display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: repeat(6, 370px);
+  grid-template-columns: 327px;
+  grid-template-rows: 370px repeat(6, auto);
   justify-items: center;
-  width: 100%;
 }
 
 .page {
   display: flex;
+  width: 327px;
   flex-direction: column;
   background-image: url(images/background-image.png);
   background-repeat: no-repeat;
   margin-top: 24px;
-  width: 327px;
   height: 372px;
-  margin-left: 5px;
+  justify-content: center;
 }
 
 .page-header {
@@ -295,6 +288,7 @@ body {
 }
 
 .page-see-project {
+  width: 327px;
   background-color: #ff6b00;
   border: none;
   color: #fff5e1;
@@ -307,7 +301,7 @@ body {
   font-size: 17px;
   cursor: pointer;
   margin-top: 22px;
-  transition: background-color 0.5s ease-out;
+  transition: background-color 0.7s ease-out;
 }
 
 .page-see-project:hover {
@@ -381,7 +375,7 @@ body {
   cursor: pointer;
   margin-top: 24px;
   margin-left: 24px;
-  transition: background-color 0.5s ease-out;
+  transition: background-color 0.7s ease-out;
 }
 
 .get-my-resume-button:hover {
@@ -424,7 +418,6 @@ body {
   color: #fff;
   text-align: center;
   margin-top: 350px;
-  margin-left: -40px;
 }
 
 .about-skill-lang {
@@ -453,8 +446,7 @@ body {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  padding-left: 24px;
-  margin: 0 auto;
+  align-items: center;
 }
 
 .form-paragraph {
@@ -472,16 +464,18 @@ body {
 
 form {
   padding-top: 50px;
+  align-items: center;
 }
 
 input[type="text"] {
   width: 327px;
   padding: 12px;
   margin: 12px 0;
-  display: inline-block;
+  display: block;
   border: none;
   border-bottom: 1px solid #ccc;
   box-sizing: border-box;
+  align-items: center;
 }
 
 textarea {
@@ -519,6 +513,7 @@ input[type="submit"] {
   letter-spacing: 0.03rem;
   margin-top: 24px;
   cursor: pointer;
+  transition: background-color 0.7s ease-out;
 }
 
 input[type="submit"]:hover {
@@ -544,7 +539,6 @@ footer {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
 }
 
 .social-icons2 {
@@ -601,7 +595,7 @@ footer {
     flex-direction: column;
     justify-content: left;
     background: #3c3a39;
-    transition: top 0.6s ease 0s;
+    transition: top 0.7s ease 0s;
     padding-top: 55px;
   }
 
@@ -652,7 +646,6 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 1440px;
     height: 72px;
     margin: 0;
     padding: 0;
@@ -693,7 +686,6 @@ footer {
 
   .headline {
     width: 100%;
-    max-width: 1440px;
     height: 798px;
     background-image: url(images/desk-img1.png);
     background-repeat: no-repeat;
@@ -755,7 +747,6 @@ footer {
 
   .middle-page {
     width: 100%;
-    max-width: 1440px;
   }
 
   .recent-work {
@@ -919,7 +910,6 @@ footer {
 
   .about-me {
     width: 100%;
-    max-width: 1440px;
     height: 1195px;
     display: flex;
     padding: 0;
@@ -1009,7 +999,6 @@ footer {
     display: flex;
     flex-direction: row;
     width: 100%;
-    max-width: 1440px;
     height: 614px;
     margin: 0;
     padding: 0;
@@ -1054,6 +1043,5 @@ footer {
 
   footer {
     width: 100%;
-    max-width: 1440px;
   }
 }
