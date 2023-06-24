@@ -76,7 +76,7 @@ const projects = [
     seeProject: 'See Project',
     linkLive: '<a href="https://albertkantwi.github.io/Portfolio_Project/" target="blank">See Live</a>',
   },
-]
+];
 
 const projectsContainer = document.getElementById('pages-container');
 
@@ -108,7 +108,7 @@ projects.map((card) => {
 
 const allProjects = [
   {
-    id: "middle-page",
+    id: 'middle-page',
     title: 'Multi-Post Stories',
     description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
     
@@ -120,7 +120,7 @@ const allProjects = [
     sourceLink: 'https://github.com/albertkantwi/Portfolio_Project',
   },
   {
-    id: "page1",
+    id: 'page1',
     title: 'Profesional Art Printing Data',
     description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
     
@@ -132,7 +132,7 @@ const allProjects = [
     sourceLink: 'https://github.com/albertkantwi/Portfolio_Project',
   },
   {
-    id: "page2",
+    id: 'page2',
     title: 'Data Dashboard Healthcare',
     description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
     
@@ -144,7 +144,7 @@ const allProjects = [
     sourceLink: 'https://github.com/albertkantwi/Portfolio_Project',
   },
   {
-    id: "page3",
+    id: 'page3',
     title: 'WebSite Portfolio',
     description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
     
@@ -156,7 +156,7 @@ const allProjects = [
     sourceLink: 'https://github.com/albertkantwi/Portfolio_Project',
   },
   {
-    id: "page4",
+    id: 'page4',
     title: 'Profesional Art Printing Data',
     description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
     
@@ -168,7 +168,7 @@ const allProjects = [
     sourceLink: 'https://github.com/albertkantwi/Portfolio_Project',
   },
   {
-    id: "page2",
+    id: 'page2',
     title: 'Data Dashboard Healthcare',
     description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
     
@@ -180,7 +180,7 @@ const allProjects = [
     sourceLink: 'https://github.com/albertkantwi/Portfolio_Project',
   },
   {
-    id: "page3",
+    id: 'page3',
     title: 'WebSite Portfolio &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;',
     description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
     
@@ -193,11 +193,8 @@ const allProjects = [
   },
 ];
 
-
 const seeProject = document.querySelectorAll('.see-project1');
 const popMenu = document.querySelector('.Popup');
-
-
 
 seeProject.forEach((btn, index) => {
   btn.addEventListener('click', () => {
@@ -207,8 +204,8 @@ seeProject.forEach((btn, index) => {
     <section id="popup2" class="popup2">
         <div id="popup2-head">
           <h3 class="popup2-heading flex">${allProjects[index].title}<h3>
-            <span class="close-botn">&#x2715;</span>
-            <ul class="language1">
+            <img src="./images/close-icon.png" class="close-b" id="close-b">
+            <ul class="popup-language">
               <li><button class="pop-button">HTML</button>
               </li>
               <li ><button class="pop-button">Bootstrap</button>
@@ -234,18 +231,31 @@ seeProject.forEach((btn, index) => {
                   class="see-project1">
                   See source
                    <img src="./images/see-source.png" alt="source icon">
-                  </button>
+                  </button></a>
                 </div>
               </div>
           </div>
      </section>
 `;
 
-const popClose = document.querySelector('.close-botn');
-popClose.addEventListener('click', () => {
-  popMenu.classList.remove('act');
-  document.body.classList.remove('no-scroll');
-});
-});
+    const popClose = document.querySelector('.close-b');
+    popClose.addEventListener('click', () => {
+      popMenu.classList.remove('act');
+      document.body.classList.remove('no-scroll');
+    });
+  });
 });
 
+// form validation //
+
+const form = document.getElementById('form');
+const email = document.getElementById('email');
+const errorMessage = document.querySelector('.error');
+form.addEventListener('submit', (e) => {
+  if (email.value !== email.value.toLowerCase()) {
+    e.preventDefault();
+    errorMessage.textContent = 'Your email input must be in lowercases!';
+  } else {
+    errorMessage.textContent = '';
+  }
+});
