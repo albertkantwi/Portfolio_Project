@@ -76,15 +76,39 @@ const projects = [
     seeProject: 'See Project',
     linkLive: '<a href="https://albertkantwi.github.io/Portfolio_Project/" target="blank">See Live</a>',
   },
-]
+];
 
 const projectsContainer = document.getElementById('pages-container');
 
-
+projects.map((card) => {
+  projectsContainer.innerHTML += `
+  <div id="${card.id}" class="page">
+          <div>
+            <h4 class="page2-header page-header">
+            ${card.name}
+            </h4>
+            <h4 class="page-header">
+            ${card.name}
+            </h4>
+            <p class="desk-page-paragraph page-paragraph">${card.description}
+            </p>
+            <div class="flex">
+              <button class="page-lang-button">${card.technologies[0]}</button>
+              <button class="page-lang-button">${card.technologies[1]}</button>
+              <button class="page-lang-button">${card.technologies[2]}</button>
+            </div>
+          </div>
+          <button class="page-see-project">
+          ${card.seeProject}
+          </button>
+  </div>
+  `;
+  return ('');
+});
 
 const allProjects = [
   {
-    id: "middle-page",
+    id: 'middle-page',
     title: 'Multi-Post Stories',
     description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
     
@@ -96,7 +120,7 @@ const allProjects = [
     sourceLink: 'https://github.com/albertkantwi/Portfolio_Project',
   },
   {
-    id: "page1",
+    id: 'page1',
     title: 'Profesional Art Printing Data',
     description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
     
@@ -108,7 +132,7 @@ const allProjects = [
     sourceLink: 'https://github.com/albertkantwi/Portfolio_Project',
   },
   {
-    id: "page2",
+    id: 'page2',
     title: 'Data Dashboard Healthcare',
     description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
     
@@ -120,7 +144,7 @@ const allProjects = [
     sourceLink: 'https://github.com/albertkantwi/Portfolio_Project',
   },
   {
-    id: "page3",
+    id: 'page3',
     title: 'WebSite Portfolio',
     description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
     
@@ -132,7 +156,7 @@ const allProjects = [
     sourceLink: 'https://github.com/albertkantwi/Portfolio_Project',
   },
   {
-    id: "page4",
+    id: 'page4',
     title: 'Profesional Art Printing Data',
     description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
     
@@ -144,7 +168,7 @@ const allProjects = [
     sourceLink: 'https://github.com/albertkantwi/Portfolio_Project',
   },
   {
-    id: "page2",
+    id: 'page2',
     title: 'Data Dashboard Healthcare',
     description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
     
@@ -156,7 +180,7 @@ const allProjects = [
     sourceLink: 'https://github.com/albertkantwi/Portfolio_Project',
   },
   {
-    id: "page3",
+    id: 'page3',
     title: 'WebSite Portfolio &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;',
     description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
     
@@ -169,11 +193,8 @@ const allProjects = [
   },
 ];
 
-
 const seeProject = document.querySelectorAll('.see-project1');
 const popMenu = document.querySelector('.Popup');
-
-
 
 seeProject.forEach((btn, index) => {
   btn.addEventListener('click', () => {
@@ -217,14 +238,24 @@ seeProject.forEach((btn, index) => {
      </section>
 `;
 
-const popClose = document.querySelector('.close-botn');
-popClose.addEventListener('click', () => {
-  popMenu.classList.remove('act');
-  document.body.classList.remove('no-scroll');
+    const popClose = document.querySelector('.close-botn');
+    popClose.addEventListener('click', () => {
+      popMenu.classList.remove('act');
+      document.body.classList.remove('no-scroll');
+    });
+  });
 });
-});
-});
+
+// form validation //
 
 const form = document.getElementById('form');
 const email = document.getElementById('email');
-const errorMessage = document.querySelector('.errorMessage');
+const errorMessage = document.querySelector('.error');
+form.addEventListener('submit', (e) => {
+  if (email.value !== email.value.toLowerCase()) {
+    e.preventDefault();
+    errorMessage.textContent = 'Your email input must be in lowercases!';
+  } else {
+    errorMessage.textContent = '';
+  }
+});
