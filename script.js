@@ -80,7 +80,31 @@ const projects = [
 
 const projectsContainer = document.getElementById('pages-container');
 
-
+projects.map((card) => {
+  projectsContainer.innerHTML += `
+  <div id="${card.id}" class="page">
+          <div>
+            <h4 class="page2-header page-header">
+            ${card.name}
+            </h4>
+            <h4 class="page-header">
+            ${card.name}
+            </h4>
+            <p class="desk-page-paragraph page-paragraph">${card.description}
+            </p>
+            <div class="flex">
+              <button class="page-lang-button">${card.technologies[0]}</button>
+              <button class="page-lang-button">${card.technologies[1]}</button>
+              <button class="page-lang-button">${card.technologies[2]}</button>
+            </div>
+          </div>
+          <button class="page-see-project">
+          ${card.seeProject}
+          </button>
+  </div>
+  `;
+  return ('');
+});
 
 const allProjects = [
   {
