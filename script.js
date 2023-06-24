@@ -204,7 +204,7 @@ seeProject.forEach((btn, index) => {
     <section id="popup2" class="popup2">
         <div id="popup2-head">
           <h3 class="popup2-heading flex">${allProjects[index].title}<h3>
-            <span class="close-botn">&#x2715;</span>
+            <span id="close-b">&#x2715;</span>
             <ul class="popup-language">
               <li><button class="pop-button">HTML</button>
               </li>
@@ -238,11 +238,14 @@ seeProject.forEach((btn, index) => {
      </section>
 `;
 
-    const popClose = document.querySelector('.close-botn');
-    popClose.addEventListener('click', () => {
-      popMenu.classList.remove('act');
-      document.body.classList.remove('no-scroll');
-    });
+const btnclose = document.getElementById('close-b');
+btnmenu.addEventListener('click', () => {
+  item.style = 'display: block;';
+});
+
+btnclose.addEventListener('click', () => {
+  item.style = 'display: none;';
+});
   });
 });
 
@@ -259,3 +262,4 @@ form.addEventListener('submit', (e) => {
     errorMessage.textContent = '';
   }
 });
+
