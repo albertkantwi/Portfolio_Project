@@ -190,7 +190,7 @@
 
 .see-project1 {
   display: inline-block;
-  width: 327px;
+  width: 127px;
   background-color: #ff6b00;
   border: none;
   color: #fff5e1;
@@ -285,6 +285,7 @@
   font-size: 15px;
   margin-right: 12px;
   margin-top: 2px;
+  margin-left: 13px;
 }
 
 .page-see-project {
@@ -300,7 +301,7 @@
   font-weight: 700;
   font-size: 17px;
   cursor: pointer;
-  margin-top: 22px;
+  margin-top: 25px;
   transition: background-color 0.7s ease-out;
 }
 
@@ -563,6 +564,94 @@ footer {
   margin-right: auto;
 }
 
+.popup2 {
+  width: 90%;
+  height: 90%;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  overflow: auto;
+  padding: 1rem;
+  position: absolute;
+  margin-left: 45px;
+  top: 150%;
+}
+
+#popup2-head {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.popup2-heading {
+  font-family: "Roboto", sans-serif;
+  color: #172b4d;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.popup-card {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+#popup-image {
+  width: 300px;
+  height: 220px;
+  object-fit: contain;
+  padding-bottom: 2em;
+}
+
+.popup-details {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: #344563;
+  width: 311px;
+  margin-left: 50px;
+}
+
+.popup-textbtn {
+  display: flex;
+  width: 311px;
+  height: 48px;
+  align-items: center;
+}
+
+.pop-button {
+  display: inline-block;
+  background-color: #fff;
+  border: 2px solid #8993a4;
+  color: #091e42;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 12px;
+}
+
+#see-live,
+#see-source {
+  display: block;
+  margin-right: 20px;
+  width: 160px;
+}
+
+.close-botn {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+.close-botn:hover {
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   .under-img {
     display: none;
@@ -619,6 +708,10 @@ footer {
     position: absolute;
     top: 30px;
     right: 20px;
+  }
+
+  .phone-desk {
+    display: none;
   }
 }
 
@@ -803,10 +896,6 @@ footer {
     display: none;
   }
 
-  .page-paragraph {
-    display: none;
-  }
-
   .page-language {
     display: none;
   }
@@ -815,7 +904,11 @@ footer {
     display: none;
   }
 
-  .page1 {
+  .page-lang-button {
+    margin-left: 13px;
+  }
+
+  #page1 {
     width: 369px;
     height: 435px;
     display: block;
@@ -830,7 +923,7 @@ footer {
     text-align: center;
   }
 
-  .page2 {
+  #page2 {
     width: 369px;
     height: 435px;
     display: block;
@@ -859,7 +952,7 @@ footer {
     display: flex;
   }
 
-  .page3 {
+  #page3 {
     width: 369px;
     height: 435px;
     display: flex;
@@ -880,6 +973,19 @@ footer {
     padding-left: 13px;
   }
 
+  .desk-page-paragraph {
+    width: 301px;
+    height: 100px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 12px;
+    padding-left: 13px;
+  }
+
   .page3-paragraph {
     display: flex;
   }
@@ -888,7 +994,7 @@ footer {
     display: flex;
   }
 
-  .page4 {
+  #page4 {
     width: 369px;
     height: 435px;
     background-image: url(images/desk-pages4.png);
@@ -1043,5 +1149,52 @@ footer {
 
   footer {
     width: 100%;
+  }
+
+  .phone-img {
+    display: none;
+  }
+
+  .popup2-heading {
+    font-family: "Roboto", sans-serif;
+    color: #172b4d;
+    font-size: 2em;
+    line-height: 1.3em;
+    margin-left: 3.5em;
+  }
+
+  .popup-lanuage {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+  }
+
+  .popup-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+  }
+
+  #popup-image {
+    width: 24em;
+    height: 18em;
+    object-fit: contain;
+    padding: 0;
+  }
+
+  .popup-details {
+    font-family: "Inter", sans-serif;
+    font-size: 1.3em;
+    line-height: 30px;
+    color: #344563;
+    height: 10em;
+  }
+
+  #see-live,
+  #see-source {
+    display: block;
+    margin-right: 10px;
   }
 }
