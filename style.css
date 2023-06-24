@@ -1163,10 +1163,11 @@ footer {
     margin-left: 3.5em;
   }
 
-  .popup-lanuage {
+  .popup-language {
     display: flex;
     list-style: none;
     gap: 12px;
+    margin-left: 6em;
   }
 
   .popup-card {

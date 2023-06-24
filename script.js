@@ -205,7 +205,7 @@ seeProject.forEach((btn, index) => {
         <div id="popup2-head">
           <h3 class="popup2-heading flex">${allProjects[index].title}<h3>
             <span class="close-botn">&#x2715;</span>
-            <ul class="language1">
+            <ul class="popup-language">
               <li><button class="pop-button">HTML</button>
               </li>
               <li ><button class="pop-button">Bootstrap</button>
