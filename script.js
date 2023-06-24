@@ -249,9 +249,3 @@ popClose.addEventListener('click', () => {
 });
 });
 
-const form = document.getElementById('form');
-const email = document.getElementById('email');
-const errorMessage = document.querySelector('.errorMessage');
-
-const formInputs = document.querySelectorAll('.form-input');
-const formInputsArr = Array.from(formInputs);
