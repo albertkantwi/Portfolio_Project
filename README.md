@@ -64,8 +64,8 @@ Added style.css file
 ## 🚀 Live Demo <a name="live-demo"></a>
 To check the live demo of this page, visit:
 
-https://albertkantwi.github.io/Portfolio_Project/
 
+https://albertkantwi.github.io/Portfolio_Project/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

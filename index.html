@@ -94,7 +94,7 @@ don't hesitate to contact me.
   </section>
   <!--middle section-->
   <section>
-    <div class="middle-page">
+    <div class="middle-page" id="middle-page">
         <div class="recent">
             <h2 class="recent-work">
                 My Recent Works
@@ -128,8 +128,8 @@ don't hesitate to contact me.
             <button class="see-project1">See Project</button>
           </div>
         </div>
-        <div class="pages-container">
-            <div class="page page1">
+        
+          <!--  <div class="page page1">
                 <h4 class="page-header">Profesional Art Printing Data</h4>
                 <p class="page-paragraph">
                     A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
@@ -205,7 +205,7 @@ don't hesitate to contact me.
             </div>
             <div class="page page2">
                 <h4 class="page-header">Profesional Art Printing Data</h4>
-                <h4 class="page2-header">Data Dashboard<br>Healthcare</h4>
+                <h4 class="page2-header">ce</h4>
                 <p class="page-paragraph page2-paragraph">
                     A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
                 </p>
@@ -240,9 +240,11 @@ don't hesitate to contact me.
                     </li>
                 </ul>
                 <button class="page-see-project">See Project</button>
-            </div>
-        </div>
+            </div> -->   
     </div>
+    <div id="pages-container" class="pages-container">
+    </div> 
+    <div id="Popup" class="Popup"></div>  
   </section> 
   <!--my profile-->
   <section id="about">
@@ -306,14 +308,19 @@ don't hesitate to contact me.
         <p class="form-paragraph">
             I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
         </p>
-        <form action="https://formspree.io/f/mvonjbvr" method="POST">
+        <div>
+        <form action="https://formspree.io/f/mvonjbvr" method="POST" id="form">
             <input type="text" id="full-name" name="text" placeholder="Full name" maxlength="30" required>
-            <input type="text" id="email" name="email" placeholder="Email Address" required>
+            <div class="emailInput">
+                <input type="text" id="email" name="email" placeholder="Email Address" required>
+                <p class="error"></p>
+            </div>
             <textarea name="text-box" id="opinion" name="textbox" cols="40" rows="6" maxlength="500" placeholder="Write me something..." required></textarea>
             <div class="form-submit-con">
                 <input type="submit" value="Get in touch">
             </div>
         </form>
+        </div>
     </div>
    </section>
    <footer>
