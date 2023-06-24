@@ -30,7 +30,7 @@ const projects = [
     technologies: ['HTML', 'Boostrap', 'Ruby'],
     seeProject: 'See Project',
     linkLive: '<a href="https://albertkantwi.github.io/Portfolio_Project/" target="blank">See Live</a>',
-    sourceLink: 'https://github.com/albertkantwi/Portfolio_Project'
+    sourceLink: 'https://github.com/albertkantwi/Portfolio_Project',
   },
   {
     id: 'page2',
@@ -40,7 +40,7 @@ const projects = [
     technologies: ['HTML', 'Boostrap', 'Ruby'],
     seeProject: 'See Project',
     linkLive: '<a href="https://albertkantwi.github.io/Portfolio_Project/" target="blank">See Live</a>',
-    sourceLink: 'https://github.com/albertkantwi/Portfolio_Project'
+    sourceLink: 'https://github.com/albertkantwi/Portfolio_Project',
   },
   {
     id: 'page3',
@@ -50,7 +50,7 @@ const projects = [
     technologies: ['HTML', 'Boostrap', 'Ruby'],
     seeProject: 'See Project',
     linkLive: '<a href="https://albertkantwi.github.io/Portfolio_Project/" target="blank">See Live</a>',
-    sourceLink: 'https://github.com/albertkantwi/Portfolio_Project'
+    sourceLink: 'https://github.com/albertkantwi/Portfolio_Project',
   },
   {
     id: 'page4',
@@ -60,7 +60,7 @@ const projects = [
     technologies: ['HTML', 'Boostrap', 'Ruby'],
     seeProject: 'See Project',
     linkLive: '<a href="https://albertkantwi.github.io/Portfolio_Project/" target="blank">See Live</a>',
-    sourceLink: 'https://github.com/albertkantwi/Portfolio_Project'
+    sourceLink: 'https://github.com/albertkantwi/Portfolio_Project',
   },
   {
     id: 'page2',
@@ -70,7 +70,7 @@ const projects = [
     technologies: ['HTML', 'Boostrap', 'Ruby'],
     seeProject: 'See Project',
     linkLive: '<a href="https://albertkantwi.github.io/Portfolio_Project/" target="blank">See Live</a>',
-    sourceLink: 'https://github.com/albertkantwi/Portfolio_Project'
+    sourceLink: 'https://github.com/albertkantwi/Portfolio_Project',
   },
   {
     id: 'page3',
@@ -80,7 +80,7 @@ const projects = [
     technologies: ['HTML', 'Boostrap', 'Ruby'],
     seeProject: 'See Project',
     linkLive: '<a href="https://albertkantwi.github.io/Portfolio_Project/" target="blank">See Live</a>',
-    sourceLink: 'https://github.com/albertkantwi/Portfolio_Project'
+    sourceLink: 'https://github.com/albertkantwi/Portfolio_Project',
   },
 ];
 
