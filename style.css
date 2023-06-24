@@ -190,7 +190,7 @@
 
 .see-project1 {
   display: inline-block;
-  width: 127px;
+  width: 147px;
   background-color: #ff6b00;
   border: none;
   color: #fff5e1;
@@ -226,6 +226,7 @@
   grid-template-columns: 327px;
   grid-template-rows: 370px repeat(6, auto);
   justify-items: center;
+  justify-content: center;
 }
 
 .page {
@@ -642,13 +643,13 @@ footer {
   width: 160px;
 }
 
-.close-botn {
+#close-b {
   position: absolute;
   top: 10px;
   right: 0;
 }
 
-.close-botn:hover {
+.close-b:hover {
   cursor: pointer;
 }
 
@@ -712,6 +713,45 @@ footer {
 
   .phone-desk {
     display: none;
+  }
+
+  .popup-language {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+    margin-left: 3em;
+  }
+
+  .popup2-heading {
+    font-family: "Roboto", sans-serif;
+    color: #172b4d;
+    font-size: 2em;
+    line-height: 1.3em;
+    margin-left: 2em;
+  }
+
+  .popup2 {
+    width: 90%;
+    height: 90%;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    overflow: auto;
+    padding: 1rem;
+    position: absolute;
+    margin-left: 15px;
+    top: 150%;
+  }
+
+  #see-live,
+  #see-source {
+    display: inline-block;
+    margin-left: 30px;
+    width: 124px;
+    height: 40px;
+    font-size: 12px;
+    align-content: center;
+    margin-top: 20px;
   }
 }
 
@@ -1195,7 +1235,16 @@ footer {
 
   #see-live,
   #see-source {
-    display: block;
+    display: inline-block;
     margin-right: 10px;
+    width: 200px;
+    height: 48px;
+    margin-top: 310px;
+    margin-left: 30px;
+    font-size: 12px;
+  }
+
+  #see-source {
+    width: 250px;
   }
 }
