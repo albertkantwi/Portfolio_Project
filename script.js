@@ -20,6 +20,3 @@ menuItems.forEach((item) => {
     close();
   });
 });
-
-
-
