@@ -633,7 +633,14 @@ footer {
   position: relative;
 }
 
-
+.popup-menu-title {
+  width: 90%;
+  color: #172b4d;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  padding-bottom: 0.75rem;
+}
 
 .popup-menu-language {
   display: flex;
