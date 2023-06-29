@@ -184,7 +184,6 @@ const createOtherProject = (otherProject) => {
   return otherProjectEl;
 };
 
-
 const otherProjectsCon = createElement('div', 'pages-container');
 projectContainer.appendChild(otherProjectsCon);
 otherProjects.forEach((otherProject) => {
