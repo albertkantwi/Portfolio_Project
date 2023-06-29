@@ -626,7 +626,7 @@ footer {
   width: 90%;
   padding: 1rem;
   position: absolute;
-  top: 56%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -749,10 +749,6 @@ footer {
   }
 
   .page3-header {
-    display: none;
-  }
-
-  .desk-about-me-paragraph {
     display: none;
   }
 
@@ -1177,6 +1173,7 @@ footer {
     justify-content: start;
     gap: 0.75rem;
     text-decoration: none;
+    margin-top: 100px;
   }
 
   .popup-menu-link a {
@@ -1185,7 +1182,17 @@ footer {
 
   .popup-menu-paragraph {
     font-weight: 400;
-    font-size: 1rem;
+    
     padding-bottom: 1rem;
+    width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  
+  font-size: 16px;
+  color: #091e42;
+  }
+
+  .popup-menu-para {
+    display: none;
   }
 }
