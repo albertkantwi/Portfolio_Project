@@ -618,6 +618,7 @@ footer {
   height: 100vh;
   width: 100%;
   z-index: 2;
+  overflow: auto;
 }
 
 .popup-menu {
@@ -625,8 +626,8 @@ footer {
   width: 90%;
   padding: 1rem;
   position: absolute;
-  top: 55%;
-  left: 50%;
+  top: 56%;
+  left: 50%;;
   transform: translate(-50%, -50%);
 }
 
@@ -1135,6 +1136,10 @@ footer {
 
   footer {
     width: 100%;
+  }
+
+  .popup-menu-container {
+    overflow: hidden;
   }
 
   .popup-menu {

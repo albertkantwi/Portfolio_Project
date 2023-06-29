@@ -184,7 +184,6 @@ const createOtherProject = (otherProject) => {
   return otherProjectEl;
 };
 
-// Function Expressions to add into index.html using the projectContainer div class.
 
 const otherProjectsCon = createElement('div', 'pages-container');
 projectContainer.appendChild(otherProjectsCon);
