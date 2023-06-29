@@ -335,4 +335,5 @@ form.addEventListener('submit', (e) => {
   } else {
     errorMessage.textContent = '';
   }
+  errorMessage.style.color = "red";
 });
