@@ -323,3 +323,16 @@ function projectModal(e) {
 
 const projectsBtn = document.querySelectorAll('.see-project1');
 projectsBtn.forEach((btn) => btn.addEventListener('click', projectModal));
+
+const form = document.getElementById('form');
+const email = document.getElementById('email');
+const errorMessage = document.querySelector('.error');
+form.addEventListener('submit', (e) => {
+  if (email.value !== email.value.toLowerCase()) {
+    e.preventDefault();
+    errorMessage.textContent = 'Your email input must be in lowercases!';
+  } else {
+    errorMessage.textContent = '';
+  }
+  errorMessage.style.color = 'red';
+});
