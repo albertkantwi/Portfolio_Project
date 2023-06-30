@@ -358,4 +358,9 @@ function saveFormData() {
     message: messageInput.value,
   };
 
-
+  // Save the data to local storage as a single entry
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+nameInput.addEventListener('input', saveFormData);
+emailInput.addEventListener('input', saveFormData);
+messageInput.addEventListener('input', saveFormData);
