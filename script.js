@@ -336,3 +336,31 @@ form.addEventListener('submit', (e) => {
   }
   errorMessage.style.color = 'red';
 });
+
+// Local Storage
+const nameInput = document.querySelector('#firstname');
+const emailInput = document.querySelector('#email');
+const messageInput = document.querySelector('#opinion');
+
+// Load the data from local storage, if it exists
+const savedData = JSON.parse(localStorage.getItem('formData'));
+
+if (savedData) {
+  nameInput.value = savedData.name;
+  emailInput.value = savedData.email;
+  messageInput.value = savedData.message;
+}
+
+function saveFormData() {
+  const formData = {
+    name: nameInput.value,
+    email: emailInput.value,
+    message: messageInput.value,
+  };
+
+  // Save the data to local storage as a single entry
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+nameInput.addEventListener('input', saveFormData);
+emailInput.addEventListener('input', saveFormData);
+messageInput.addEventListener('input', saveFormData);
