@@ -343,6 +343,13 @@ const emailInput = document.querySelector('#email');
 const messageInput = document.querySelector('#opinion');
 
 // Load the data from local storage, if it exists
+const savedData = JSON.parse(localStorage.getItem('formData'));
+
+if (savedData) {
+  nameInput.value = savedData.name;
+  emailInput.value = savedData.email;
+  messageInput.value = savedData.message;
+}
 
 function saveFormData() {
   const formData = {
