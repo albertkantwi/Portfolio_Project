@@ -256,7 +256,7 @@
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
     ),
-    url(../images/2-image-backgnd.png);
+    url(images/2-image-backgnd.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -269,7 +269,7 @@
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
     ),
-    url(../images/3-image-backgnd.png);
+    url(images/3-image-backgnd.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -282,7 +282,7 @@
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
     ),
-    url(../images/4-image-backgnd.png);
+    url(images/4-image-backgnd.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -973,19 +973,19 @@ footer {
 
   #page-1:hover,
   #page-4:hover {
-    background-image: url(../images/2-image-backgnd.png);
+    background-image: url(images/2-image-backgnd.png);
     cursor: pointer;
   }
 
   #page-2:hover,
   #page-5:hover {
-    background-image: url(../images/3-image-backgnd.png);
+    background-image: url(images/3-image-backgnd.png);
     cursor: pointer;
   }
 
   #page-3:hover,
   #page-6:hover {
-    background-image: url(../images/4-image-backgnd.png);
+    background-image: url(images/4-image-backgnd.png);
     cursor: pointer;
   }
 
